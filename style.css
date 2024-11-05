@@ -207,6 +207,20 @@ body {
     margin-top: 1rem;
   }
 }
+@media screen and (max-width: 650px) {
+  .main_content {
+    margin: 0;
+    padding:0;
+    width: 100%;
+  }
+  .left_section {
+    padding: 1rem 0;
+  }
+  .right-main-content {
+    padding: 1rem 2rem;
+  }
+  
+}
 @media screen and (max-width: 386px) {
   .contact_info ul li {
     font-size: 12px;
